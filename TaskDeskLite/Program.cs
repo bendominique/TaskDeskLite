@@ -15,7 +15,7 @@ public class Program
             Console.Clear();
             ConsoleUi.Title("TaskDesk Lite (Console)");
 
-            Console.WriteLine("1) Listar tarefas");
+            Console.WriteLine("1) Lista tarefas");
             Console.WriteLine("2) Cadastrar tarefa");
             Console.WriteLine("3) Editar tarefa");
             Console.WriteLine("4) Concluir tarefa");
