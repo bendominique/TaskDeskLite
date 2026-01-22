@@ -15,15 +15,37 @@ public class TaskService : ITaskService
         return task;
     }
 
-    public TaskItem Create(TaskItem task)
+ 
+     public TaskItem Create(TaskItem task)
     {
-        // TODO: validar
-        // TODO: garantir Id novo e Status Pending
-        // TODO: adicionar na lista
-        // TODO: retornar a tarefa criada
+        //para a tarefa ser valida, conferir com:
+        ValidateTask(task);
 
-        throw new NotImplementedException();
+        //id da tarefa.
+        task.Id = Guid.NewGuid();
+        //tarefas novas começando como Pendente
+        task.Status = TaskStatus.Pending;
+        //data e hora guardadas
+        task.CreatedAt = DateTime.Now;
+
+        //salvar a tarefa na lista (memoria)
+        _tasks.Add(task);
+
+        return task;
     }
+    ///////// validaçao da tarefa:
+    private void ValidateTask(TaskItem task)
+    {
+        // verifica se o titulo esta vazio ou só com espaços
+        if (string.IsNullOrWhiteSpace(task.Title))
+            throw new BusinessRuleException("O título é obrigatório.");
+
+        //verifica se o titulo é muito curto ou longo
+        if (task.Title.Length < 3 || task.Title.Length > 40)
+            throw new BusinessRuleException("O título deve ter entre 3 e 40 caracteres.");
+    }
+    //    throw new NotImplementedException();
+    //}
 
     public TaskItem Update(TaskItem task)
     {
@@ -63,11 +85,12 @@ public class TaskService : ITaskService
 
     public void Delete(Guid id)
     {
-        // TODO: se não existir -> NotFoundException
-        // TODO: remover
-        throw new NotImplementedException();
-    }
+        // Busca a tarefa (se não existir, dá erro)
+        var task = GetById(id);
 
+        // Remove da lista
+        _tasks.Remove(task);
+    }
     public TaskItem MarkAsDone(Guid id)
     {
         // TODO: buscar id existente
