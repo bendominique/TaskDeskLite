@@ -28,12 +28,37 @@ public class TaskService : ITaskService
     public TaskItem Update(TaskItem task)
     {
         // TODO: validar
-        // TODO: buscar existente
-        // TODO: regra: se Status Done -> não pode editar (BusinessRuleException)
-        // TODO: atualizar campos permitidos
-        // TODO: retornar atualizado
+        // Chama o método de validação do arquivo TaskValidator.cs
+        TaskValidator.ValidateForCreateOrUpdate(task);
 
-        throw new NotImplementedException();
+        // TODO: buscar tarefa existente na lista pelo id
+        // Busca, retorna e armazena na variável
+        var existing = GetById(task.Id);
+        // Se a variável estiver nula
+        if (existing is null)
+        {
+            // Lança uma exceção
+            throw new NotFoundException("Tarefa não encontrada.");
+        }
+
+        // TODO: regra: se Status Done -> não pode editar (BusinessRuleException - erro de regra de negócio no arquivo Program.cs)
+        // Se o status da variável que armazena a tarefa existente for igual a Done
+        if (existing.Status == TaskStatus.Done)
+        {
+            // Lança uma mensagem para o usuário
+            throw new BusinessRuleException("Não é possível editar uma tarefa que já foi concluída.");
+        }
+
+        // TODO: atualizar campos permitidos
+        // Pega os campos da tarefa existente e atribuí os valores da tarefa recebida por parâmetro
+        existing.Title = task.Title;
+        existing.Description = task.Description;
+        existing.Priority = task.Priority;
+        existing.DueDate = task.DueDate;
+        existing.Status = task.Status;
+
+        // TODO: retornar a tarefa atualizada
+        return task;
     }
 
     public void Delete(Guid id)
@@ -45,9 +70,13 @@ public class TaskService : ITaskService
 
     public TaskItem MarkAsDone(Guid id)
     {
-        // TODO: buscar existente
-        // TODO: marcar Done
+        // TODO: buscar id existente
+        // Chama o método GetById para buscar a tarefa pelo id e armazena na variável
+        var task = GetById(id);
+        // TODO: marcar Done para a tarefa concluída
+        // Altera o status da tarefa da variável para Done
+        task.Status = TaskStatus.Done;
         // TODO: retornar
-        throw new NotImplementedException();
+        return task;
     }
 }
