@@ -15,8 +15,8 @@ public enum TaskStatus
 
 public class TaskItem
 {
-    public Guid Id { get; set; } = Guid.NewGuid();
-    public string Title { get; set; } = "";
+    public Guid Id { get; set; } = Guid.NewGuid();  
+    public string Title { get; set; } = ""; 
     public string? Description { get; set; }
     public TaskPriority Priority { get; set; } = TaskPriority.Medium;
     public DateTime? DueDate { get; set; }

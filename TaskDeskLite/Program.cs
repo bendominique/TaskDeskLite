@@ -163,11 +163,18 @@ public class Program
         Console.Clear();
         ConsoleUi.Title("Concluir tarefa");
 
-        var id = ConsoleUi.ReadGuid("Informe o ID da tarefa: ");
-        service.MarkAsDone(id);
+        try 
+        {
+            var id = ConsoleUi.ReadGuid("Informe o ID da tarefa: ");
+            service.MarkAsDone(id);
 
-        ConsoleUi.Success("Tarefa concluída!");
-        ConsoleUi.Pause();
+            ConsoleUi.Success("Tarefa concluída!");
+            ConsoleUi.Pause();
+        }
+        catch (DomainValidationException ex)
+        {
+            ConsoleUi.Error($"Erro: {ex.Message}");
+        }
     }
 
     static void DeleteTask(ITaskService service)
@@ -175,19 +182,27 @@ public class Program
         Console.Clear();
         ConsoleUi.Title("Excluir tarefa");
 
-        var id = ConsoleUi.ReadGuid("Informe o ID da tarefa: ");
-
-        var confirm = ConsoleUi.ReadString("Tem certeza? (s/n): ");
-        if (!confirm.Equals("s", StringComparison.OrdinalIgnoreCase))
+        try
         {
-            Console.WriteLine("Operação cancelada.");
+            var id = ConsoleUi.ReadGuid("Informe o ID da tarefa: ");
+
+            var confirm = ConsoleUi.ReadString("Tem certeza? (s/n): ");
+            if (!confirm.Equals("s", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("Operação cancelada.");
+                ConsoleUi.Pause();
+                return;
+            }
+
+            service.Delete(id);
+
+            ConsoleUi.Success("Tarefa excluída!");
             ConsoleUi.Pause();
-            return;
         }
-
-        service.Delete(id);
-
-        ConsoleUi.Success("Tarefa excluída!");
-        ConsoleUi.Pause();
+        catch (DomainValidationException ex)
+        {
+            ConsoleUi.Error($" Erro: {ex.Message}");
+        }
+        
     }
 }

@@ -28,7 +28,7 @@ public class TaskService : ITaskService
         //data e hora guardadas
         task.CreatedAt = DateTime.Now;
 
-        //salvar a tarefa na lista (memoria)
+        //salvar a tarefa na lista (memoria)    
         _tasks.Add(task);
 
         return task;
@@ -42,7 +42,7 @@ public class TaskService : ITaskService
 
         //verifica se o titulo é muito curto ou longo
         if (task.Title.Length < 3 || task.Title.Length > 40)
-            throw new BusinessRuleException("O título deve ter entre 3 e 40 caracteres.");
+            throw new DomainValidationException("O título deve ter entre 3 e 40 caracteres.");
     }
     //    throw new NotImplementedException();
     //}
@@ -96,10 +96,9 @@ public class TaskService : ITaskService
         // TODO: buscar id existente
         // Chama o método GetById para buscar a tarefa pelo id e armazena na variável
         var task = GetById(id);
-        // TODO: marcar Done para a tarefa concluída
-        // Altera o status da tarefa da variável para Done
-        task.Status = TaskStatus.Done;
-        // TODO: retornar
+
+   
+        task.Status  = TaskStatus.Done;
         return task;
     }
 }
