@@ -3,6 +3,7 @@ using System.Net.NetworkInformation;
 using System.Threading.Tasks;
 using TaskDeskLite.Core;
 using Xunit;
+using Xunit.Sdk;
 using StatusTarefa = TaskDeskLite.Core.TaskStatus;
 
 /*
@@ -55,17 +56,27 @@ namespace TaskDeskLite.Tests
 
             Assert.Throws<BusinessRuleException>(() =>
                 _servico.Create(tarefa));
-       }
+        }
 
         [Fact]
         public void Criar_TituloComPalavraProibida_DeveLancarExcecaoDeDominio()
         {
             var tarefa = new TaskItem { Title = "Teste hack" };
 
-           Assert.Throws<DomainValidationException>(() =>
-               _servico.Create(tarefa));
+            Assert.Throws<DomainValidationException>(() =>
+                _servico.Create(tarefa));
         }
 
+        [Fact]
+        public void Criar_Tarefa_ComPrazoNoPassado_DeveRetornarUmaExcecaoDeRegraDeNegocio()
+        {
+            var tarefaPrazoPassado = DateTime.Today.AddDays(-1);
+            var tarefa = new TaskItem();
+            var ex = Assert.Throws<BusinessRuleException>(() =>
+           _servico.Create(tarefa));
+
+            Assert.Equal("A data de criação da tarefa deve ser igual ou após o dia atual.", ex.Message);
+        }
         [Fact]
         //Testes de Exclusão - Aléxia
         public void DeletarTarefa_IDInexistente_LancaExcecao()
@@ -113,16 +124,16 @@ namespace TaskDeskLite.Tests
             // Tenta deletar uma tarefa inexistente com um ID aleatório e verifica se a exceção NotFoundException é lançada
             Assert.Throws<NotFoundException>(() => taskService.Delete(Guid.NewGuid()));
         }
-            [Fact]
-            public void DeletarTarefa_IDInvalido_LancaExcecao()
-            {
-                ////////// Cenário de validação: Tentar deletar uma tarefa com ID inválido (negativo) //////////
-                // Cria uma instância do serviço de tarefas que contém as operações de CRUD
-                var taskService = new TaskDeskLite.Core.TaskService();
+        [Fact]
+        public void DeletarTarefa_IDInvalido_LancaExcecao()
+        {
+            ////////// Cenário de validação: Tentar deletar uma tarefa com ID inválido (negativo) //////////
+            // Cria uma instância do serviço de tarefas que contém as operações de CRUD
+            var taskService = new TaskDeskLite.Core.TaskService();
 
-                // Tenta deletar a tarefa com ID inválido e verifica se a exceção BusinessRuleException é lançada
-                Assert.Throws<BusinessRuleException>(() => taskService.Delete(Guid.Empty));
-            }
+            // Tenta deletar a tarefa com ID inválido e verifica se a exceção BusinessRuleException é lançada
+            Assert.Throws<BusinessRuleException>(() => taskService.Delete(Guid.Empty));
+        }
         [Fact]
         public void DeletarTarefa_ListaVazia_LancaExcecao()
         {
@@ -174,5 +185,17 @@ namespace TaskDeskLite.Tests
         //}
 
 
+        //Teste de Conclusão - Italo
+        [Fact]
+        public void ConcluirTarefa_SemId_DeveLancarErro()
+        {
+            var taskService = new TaskDeskLite.Core.TaskService();
+            var taskItem = new TaskDeskLite.Core.TaskItem();
+            if (taskItem.Id == Guid.Empty)
+            {
+                Assert.Throws<ArgumentException>(() => taskService.MarkAsDone(taskItem.Id));
+            }
+
+        }
     }
-    }
+}

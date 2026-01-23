@@ -1,50 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\",
+  "WorkspaceRootPath": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|c:\\users\\benja\\source\\repos\\taskdesklite\\taskdesklite.tests\\testesdevalidacaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|solutionrelative:taskdesklite.tests\\testesdevalidacaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|c:\\users\\benja\\source\\repos\\taskdesklite\\taskdesklite.tests\\testesdeexcepcaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|solutionrelative:taskdesklite.tests\\testesdeexcepcaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\benja\\source\\repos\\taskdesklite\\taskdesklite.core\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\benja\\source\\repos\\taskdesklite\\taskdesklite.core\\domainexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\domainexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\benja\\source\\repos\\taskdesklite\\taskdesklite.core\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\benja\\source\\repos\\taskdesklite\\taskdesklite.core\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\benja\\source\\repos\\taskdesklite\\taskdesklite.core\\taskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\user_acronus\\source\\repos\\taskdesklite\\taskdesklite.core\\taskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\taskvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|c:\\users\\benja\\source\\repos\\taskdesklite\\taskdesklite.tests\\taskdesklite.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|solutionrelative:taskdesklite.tests\\taskdesklite.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|c:\\users\\user_acronus\\source\\repos\\taskdesklite\\taskdesklite.tests\\testesdevalidacaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|solutionrelative:taskdesklite.tests\\testesdevalidacaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|c:\\users\\benja\\source\\repos\\taskdesklite\\taskdesklite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\user_acronus\\source\\repos\\taskdesklite\\taskdesklite.core\\domainexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\domainexceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|c:\\users\\user_acronus\\source\\repos\\taskdesklite\\taskdesklite.tests\\testesdeexcepcaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|solutionrelative:taskdesklite.tests\\testesdeexcepcaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\user_acronus\\source\\repos\\taskdesklite\\taskdesklite.core\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\user_acronus\\source\\repos\\taskdesklite\\taskdesklite.core\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|c:\\users\\user_acronus\\source\\repos\\taskdesklite\\taskdesklite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|solutionrelative:taskdesklite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|c:\\users\\benja\\source\\repos\\taskdesklite\\taskdesklite\\taskdesklite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\user_acronus\\source\\repos\\taskdesklite\\taskdesklite.core\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\user_acronus\\source\\repos\\taskdesklite\\taskdesklite.core\\taskdesklite.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\taskdesklite.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|c:\\users\\user_acronus\\source\\repos\\taskdesklite\\taskdesklite\\taskdesklite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|solutionrelative:taskdesklite\\taskdesklite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\benja\\source\\repos\\taskdesklite\\taskdesklite.core\\taskdesklite.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\taskdesklite.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|c:\\users\\user_acronus\\source\\repos\\taskdesklite\\taskdesklite.tests\\taskdesklite.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|solutionrelative:taskdesklite.tests\\taskdesklite.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,58 +54,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestesDeExcepcaoDeTarefas.cs",
-              "DocumentMoniker": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
-              "RelativeDocumentMoniker": "TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
-              "ToolTip": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
-              "RelativeToolTip": "TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAALIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-23T11:33:35.284Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskItem.cs",
               "RelativeDocumentMoniker": "TaskDeskLite.Core\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskItem.cs",
               "RelativeToolTip": "TaskDeskLite.Core\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T17:18:28.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DomainExceptions.cs",
-              "DocumentMoniker": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\DomainExceptions.cs",
-              "RelativeDocumentMoniker": "TaskDeskLite.Core\\DomainExceptions.cs",
-              "ToolTip": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\DomainExceptions.cs",
-              "RelativeToolTip": "TaskDeskLite.Core\\DomainExceptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:18:20.677Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite\\Program.cs",
               "RelativeDocumentMoniker": "TaskDeskLite\\Program.cs",
-              "ToolTip": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite\\Program.cs",
+              "ToolTip": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite\\Program.cs",
               "RelativeToolTip": "TaskDeskLite\\Program.cs",
               "ViewState": "AgIAALwAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -114,11 +112,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "TaskValidator.cs",
-              "DocumentMoniker": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskValidator.cs",
+              "DocumentMoniker": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskValidator.cs",
               "RelativeDocumentMoniker": "TaskDeskLite.Core\\TaskValidator.cs",
-              "ToolTip": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskValidator.cs",
+              "ToolTip": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskValidator.cs",
               "RelativeToolTip": "TaskDeskLite.Core\\TaskValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -127,24 +125,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskService.cs",
               "RelativeDocumentMoniker": "TaskDeskLite.Core\\TaskService.cs",
-              "ToolTip": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskService.cs",
+              "ToolTip": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskService.cs",
               "RelativeToolTip": "TaskDeskLite.Core\\TaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-22T17:02:44.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "TestesDeExcepcaoDeTarefas.cs",
+              "DocumentMoniker": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
+              "RelativeDocumentMoniker": "TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
+              "ToolTip": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
+              "RelativeToolTip": "TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAWwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T11:33:35.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DomainExceptions.cs",
+              "DocumentMoniker": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\DomainExceptions.cs",
+              "RelativeDocumentMoniker": "TaskDeskLite.Core\\DomainExceptions.cs",
+              "ToolTip": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\DomainExceptions.cs",
+              "RelativeToolTip": "TaskDeskLite.Core\\DomainExceptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T17:18:20.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestesDeValidacaoDeTarefas.cs",
+              "DocumentMoniker": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TestesDeValidacaoDeTarefas.cs",
+              "RelativeDocumentMoniker": "TaskDeskLite.Tests\\TestesDeValidacaoDeTarefas.cs",
+              "ToolTip": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TestesDeValidacaoDeTarefas.cs",
+              "RelativeToolTip": "TaskDeskLite.Tests\\TestesDeValidacaoDeTarefas.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T16:56:31.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ITaskService.cs",
-              "DocumentMoniker": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\ITaskService.cs",
               "RelativeDocumentMoniker": "TaskDeskLite.Core\\ITaskService.cs",
-              "ToolTip": "C:\\Users\\benja\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\user_acronus\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\ITaskService.cs",
               "RelativeToolTip": "TaskDeskLite.Core\\ITaskService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -153,11 +190,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "TaskDeskLite.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\benja\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\user_acronus\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
               "RelativeDocumentMoniker": "TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
-              "ToolTip": "C:\\Users\\benja\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
+              "ToolTip": "C:\\Users\\user_acronus\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
               "RelativeToolTip": "TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -168,9 +205,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "TaskDeskLite.csproj",
-              "DocumentMoniker": "C:\\Users\\benja\\Source\\Repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj",
+              "DocumentMoniker": "C:\\Users\\user_acronus\\Source\\Repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj",
               "RelativeDocumentMoniker": "TaskDeskLite\\TaskDeskLite.csproj",
-              "ToolTip": "C:\\Users\\benja\\Source\\Repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj",
+              "ToolTip": "C:\\Users\\user_acronus\\Source\\Repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj",
               "RelativeToolTip": "TaskDeskLite\\TaskDeskLite.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -179,26 +216,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TestesDeValidacaoDeTarefas.cs",
-              "DocumentMoniker": "C:\\Users\\benja\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\TestesDeValidacaoDeTarefas.cs",
-              "RelativeDocumentMoniker": "TaskDeskLite.Tests\\TestesDeValidacaoDeTarefas.cs",
-              "ToolTip": "C:\\Users\\benja\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\TestesDeValidacaoDeTarefas.cs",
-              "RelativeToolTip": "TaskDeskLite.Tests\\TestesDeValidacaoDeTarefas.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T16:56:31.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "TaskDeskLite.Tests.csproj",
-              "DocumentMoniker": "C:\\Users\\benja\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\user_acronus\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
               "RelativeDocumentMoniker": "TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
-              "ToolTip": "C:\\Users\\benja\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
+              "ToolTip": "C:\\Users\\user_acronus\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
               "RelativeToolTip": "TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-01-22T16:56:26.839Z",
               "EditorCaption": ""
