@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskDeskLite.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d72c56c735f534c315bea7a69ee88c9256c8804")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff2d66f67cf97f0a5d3469db8d8a7a2219999a03")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskDeskLite.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskDeskLite.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
