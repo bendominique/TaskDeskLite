@@ -103,21 +103,22 @@ public class Program
         ConsoleUi.Title("Cadastrar tarefa");
 
         var title = ConsoleUi.ReadString("Título: ");
-        var desc = ConsoleUi.ReadOptionalString("Descrição (opcional): ");
+        var description = ConsoleUi.ReadOptionalString("Descrição (opcional): ");
+        var dueDate = ConsoleUi.ReadOptionalDate("Data limite (dd/MM/yyyy): ");
 
-        var priority = ConsoleUi.ReadEnum<TaskPriority>(
-            "Prioridade (Low/Medium/High): ",
-            defaultValue: TaskPriority.Medium);
+        var priority = ConsoleUi.ReadPriority("Prioridade da tarefa:");
 
-        var dueDate = ConsoleUi.ReadOptionalDate("Prazo (dd/MM/yyyy) ou vazio: ");
-
-        var created = service.Create(new TaskItem
+        // Criação do objeto de domínio
+        var task = new TaskItem
         {
             Title = title,
-            Description = desc,
-            Priority = priority,
-            DueDate = dueDate
-        });
+            Description = description,
+            DueDate = dueDate,
+            Priority = priority
+        };
+
+        // Envio para o serviço (onde ficam validações e regras)
+        var created = service.Create(task);
 
         ConsoleUi.Success($"Tarefa criada com sucesso! ID: {created.Id}");
         ConsoleUi.Pause();
@@ -163,11 +164,18 @@ public class Program
         Console.Clear();
         ConsoleUi.Title("Concluir tarefa");
 
-        var id = ConsoleUi.ReadGuid("Informe o ID da tarefa: ");
-        service.MarkAsDone(id);
+        try 
+        {
+            var id = ConsoleUi.ReadGuid("Informe o ID da tarefa: ");
+            service.MarkAsDone(id);
 
-        ConsoleUi.Success("Tarefa concluída!");
-        ConsoleUi.Pause();
+            ConsoleUi.Success("Tarefa concluída!");
+            ConsoleUi.Pause();
+        }
+        catch (DomainValidationException ex)
+        {
+            ConsoleUi.Error($"Erro: {ex.Message}");
+        }
     }
 
     static void DeleteTask(ITaskService service)
@@ -175,19 +183,27 @@ public class Program
         Console.Clear();
         ConsoleUi.Title("Excluir tarefa");
 
-        var id = ConsoleUi.ReadGuid("Informe o ID da tarefa: ");
-
-        var confirm = ConsoleUi.ReadString("Tem certeza? (s/n): ");
-        if (!confirm.Equals("s", StringComparison.OrdinalIgnoreCase))
+        try
         {
-            Console.WriteLine("Operação cancelada.");
+            var id = ConsoleUi.ReadGuid("Informe o ID da tarefa: ");
+
+            var confirm = ConsoleUi.ReadString("Tem certeza? (s/n): ");
+            if (!confirm.Equals("s", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.WriteLine("Operação cancelada.");
+                ConsoleUi.Pause();
+                return;
+            }
+
+            service.Delete(id);
+
+            ConsoleUi.Success("Tarefa excluída!");
             ConsoleUi.Pause();
-            return;
         }
-
-        service.Delete(id);
-
-        ConsoleUi.Success("Tarefa excluída!");
-        ConsoleUi.Pause();
+        catch (DomainValidationException ex)
+        {
+            ConsoleUi.Error($" Erro: {ex.Message}");
+        }
+        
     }
 }

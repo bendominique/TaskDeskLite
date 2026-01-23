@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "SuYWt2fU768=",
   "success": true,
   "projectFilePath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
+=======
+  "dgSpecHash": "4303yiKT2qs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stephany.csiqueira\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
+>>>>>>> 37eb40615639a428d3b44575042a2fd7a4b45ef4
   "expectedPackageFiles": [],
   "logs": []
 }

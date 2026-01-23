@@ -1,20 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\",
+  "WorkspaceRootPath": "C:\\Users\\stephany.csiqueira\\source\\repos\\TaskDeskLite\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|c:\\users\\benjamin.dmakangwa\\source\\repos\\taskdesklite\\taskdesklite.tests\\testesdeexcepcaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|solutionrelative:taskdesklite.tests\\testesdeexcepcaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\benjamin.dmakangwa\\source\\repos\\taskdesklite\\taskdesklite.core\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|c:\\users\\stephany.csiqueira\\source\\repos\\taskdesklite\\taskdesklite\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|solutionrelative:taskdesklite\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 37eb40615639a428d3b44575042a2fd7a4b45ef4
     },
     {
-      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\benjamin.dmakangwa\\source\\repos\\taskdesklite\\taskdesklite.core\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|c:\\users\\stephany.csiqueira\\source\\repos\\taskdesklite\\taskdesklite.core\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{978B0282-E217-466A-A9D1-9DC9DE6C6A0B}|TaskDeskLite.Core\\TaskDeskLite.Core.csproj|solutionrelative:taskdesklite.core\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|c:\\users\\benjamin.dmakangwa\\source\\repos\\taskdesklite\\taskdesklite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|solutionrelative:taskdesklite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -49,6 +55,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|c:\\users\\benjamin.dmakangwa\\source\\repos\\taskdesklite\\taskdesklite\\taskdesklite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|solutionrelative:taskdesklite\\taskdesklite.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+=======
+      "AbsoluteMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|c:\\users\\stephany.csiqueira\\source\\repos\\taskdesklite\\taskdesklite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C08A3C13-EB1F-4A09-A468-F30201ED3BAA}|TaskDeskLite\\TaskDeskLite.csproj|solutionrelative:taskdesklite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|c:\\users\\stephany.csiqueira\\source\\repos\\taskdesklite\\taskdesklite.tests\\testesdeexcepcaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9B38575-7945-4C58-B5CD-87043EDF7757}|TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj|solutionrelative:taskdesklite.tests\\testesdeexcepcaodetarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 37eb40615639a428d3b44575042a2fd7a4b45ef4
     }
   ],
   "DocumentGroupContainers": [
@@ -58,6 +72,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -95,12 +110,67 @@
               "ToolTip": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskService.cs",
               "RelativeToolTip": "TaskDeskLite.Core\\TaskService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAIA0wC0AAAAAAAAAAAAAAA==",
+=======
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stephany.csiqueira\\source\\repos\\TaskDeskLite\\TaskDeskLite\\Program.cs",
+              "RelativeDocumentMoniker": "TaskDeskLite\\Program.cs",
+              "ToolTip": "C:\\Users\\stephany.csiqueira\\source\\repos\\TaskDeskLite\\TaskDeskLite\\Program.cs",
+              "RelativeToolTip": "TaskDeskLite\\Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowHUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:02:44.591Z",
+              "WhenOpened": "2026-01-23T17:55:08.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsoleUi.cs",
+              "DocumentMoniker": "C:\\Users\\stephany.csiqueira\\source\\repos\\TaskDeskLite\\TaskDeskLite\\ConsoleUi.cs",
+              "RelativeDocumentMoniker": "TaskDeskLite\\ConsoleUi.cs",
+              "ToolTip": "C:\\Users\\stephany.csiqueira\\source\\repos\\TaskDeskLite\\TaskDeskLite\\ConsoleUi.cs",
+              "RelativeToolTip": "TaskDeskLite\\ConsoleUi.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+>>>>>>> 37eb40615639a428d3b44575042a2fd7a4b45ef4
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T17:54:02.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "TestesDeExcepcaoDeTarefas.cs",
               "DocumentMoniker": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
@@ -147,12 +217,22 @@
               "ToolTip": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\ITaskService.cs",
               "RelativeToolTip": "TaskDeskLite.Core\\ITaskService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 1,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\stephany.csiqueira\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskDeskLite.Core\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\stephany.csiqueira\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskItem.cs",
+              "RelativeToolTip": "TaskDeskLite.Core\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAACAAAAAAAAAAA==",
+>>>>>>> 37eb40615639a428d3b44575042a2fd7a4b45ef4
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-22T17:02:43.68Z",
+              "WhenOpened": "2026-01-23T17:52:14.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 7,
               "Title": "DomainExceptions.cs",
               "DocumentMoniker": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\DomainExceptions.cs",
@@ -214,6 +294,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-01-22T17:02:40.295Z",
+=======
+              "DocumentIndex": 3,
+              "Title": "TestesDeExcepcaoDeTarefas.cs",
+              "DocumentMoniker": "C:\\Users\\stephany.csiqueira\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
+              "RelativeDocumentMoniker": "TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
+              "ToolTip": "C:\\Users\\stephany.csiqueira\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
+              "RelativeToolTip": "TaskDeskLite.Tests\\TestesDeExcepcaoDeTarefas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T11:33:35.284Z",
+>>>>>>> 37eb40615639a428d3b44575042a2fd7a4b45ef4
               "EditorCaption": ""
             }
           ]
