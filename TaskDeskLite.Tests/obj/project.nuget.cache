@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZNm/0j+yZpM=",
+  "dgSpecHash": "5PUTGvSbVAI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
+  "projectFilePath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\benjamin.dmakangwa\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\benjamin.dmakangwa\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",

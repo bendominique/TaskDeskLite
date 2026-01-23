@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj": {}
+    "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj": {
+    "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
+        "projectUniqueName": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
         "projectName": "TaskDeskLite.Core",
-        "projectPath": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
+        "projectPath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj",
         "packagesPath": "C:\\Users\\benjamin.dmakangwa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\obj\\",
+        "outputPath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj": {
+    "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
         "projectName": "TaskDeskLite.Tests",
-        "projectPath": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
+        "projectPath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\TaskDeskLite.Tests.csproj",
         "packagesPath": "C:\\Users\\benjamin.dmakangwa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Tests\\obj\\",
+        "outputPath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,11 +99,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj": {
-                "projectPath": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj"
+              "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj": {
+                "projectPath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj"
               },
-              "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj": {
-                "projectPath": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj"
+              "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj": {
+                "projectPath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj"
               }
             }
           }
@@ -161,14 +161,14 @@
         }
       }
     },
-    "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj": {
+    "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj",
+        "projectUniqueName": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj",
         "projectName": "TaskDeskLite",
-        "projectPath": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj",
+        "projectPath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite\\TaskDeskLite.csproj",
         "packagesPath": "C:\\Users\\benjamin.dmakangwa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite\\obj\\",
+        "outputPath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -190,8 +190,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj": {
-                "projectPath": "C:\\Users\\benjamin.dmakangwa\\Source\\Repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj"
+              "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj": {
+                "projectPath": "C:\\Users\\benjamin.dmakangwa\\source\\repos\\TaskDeskLite\\TaskDeskLite.Core\\TaskDeskLite.Core.csproj"
               }
             }
           }
