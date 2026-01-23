@@ -18,9 +18,9 @@ public class TaskItem
     public Guid Id { get; set; } = Guid.NewGuid();  
     public string Title { get; set; } = ""; 
     public string? Description { get; set; }
-    public TaskPriority Priority { get; set; } = TaskPriority.Medium;
-    public DateTime? DueDate { get; set; }
+    public TaskPriority Priority { get; set; } // antes prioridade ja tinha um valor definido, agora o usuario que deve colocar 
     public TaskStatus Status { get; set; } = TaskStatus.Pending;
+    public DateTime? DueDate { get; set; }
 
     public DateTime CreatedAt { get; set; } = DateTime.Now;
 }

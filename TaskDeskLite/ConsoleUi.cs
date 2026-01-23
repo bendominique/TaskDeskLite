@@ -1,4 +1,6 @@
-﻿namespace TaskDeskLite;
+﻿using TaskDeskLite.Core;
+
+namespace TaskDeskLite;
 
 public static class ConsoleUi
 {
@@ -108,5 +110,32 @@ public static class ConsoleUi
 
         Console.WriteLine($"Valor inválido. Mantendo valor anterior.");
         return null;
+    }
+
+    public static TaskPriority ReadPriority(string label)
+    {
+        while (true)
+        {
+            Console.WriteLine(label);
+            Console.WriteLine("1 - Baixa");
+            Console.WriteLine("2 - Média");
+            Console.WriteLine("3 - Alta");
+            Console.Write("Escolha uma opção (1 a 3): ");
+
+            var input = Console.ReadLine();
+
+            if (int.TryParse(input, out var option))
+            {
+                return option switch
+                {
+                    1 => TaskPriority.Low,
+                    2 => TaskPriority.Medium,
+                    3 => TaskPriority.High,
+                    _ => throw new Exception()
+                };
+            }
+
+            Console.WriteLine("Opção inválida. Selecione 1, 2 ou 3.");
+        }
     }
 }

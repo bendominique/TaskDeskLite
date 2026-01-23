@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TaskDeskLite.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc252a1f33854256ae80f089be8ae357eee63ba0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecf3970fafe0859a682d61c83df4b6671bb0085d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TaskDeskLite.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TaskDeskLite.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

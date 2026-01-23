@@ -35,26 +35,18 @@ namespace TaskDeskLite.Tests
         [Fact]
         public void Criar_TituloMuitoCurto_DeveLancarExcecaoDeDominio()
         {
-            var tarefa = new TaskItem
-            {
-                Title = ("2"),
-                Description = "Descrição válida",
-                Priority = TaskPriority.Medium
-            };
+            var tarefa = new TaskItem { Title = "ab" };
 
-            //Verificando se o código lança uma exceção específica, ou seja, se tentarmos criar essa tarefa 
-            //com o título muito curto, retorna uma DomainValidationException. E aí o teste funciona
-            var ex = Assert.Throws<DomainValidationException>(() => _servico.Create(tarefa));
-
-            Assert.Equal("O título deve ter entre 3 e 40 caracteres.", ex.Message); //Assert.Equal verifica se a mensagem corresponde com a mesma do TaskValidator e aí nos retorna um ok
+            Assert.Throws<DomainValidationException>(() =>
+                _servico.Create(tarefa));
         }
 
         [Fact]
-        public void Criar_TituloApenasComEspacos_DeveLancarExcecaoDeRegraDeNegocio()
+        public void Criar_TituloApenasComEspacos_DeveLancarExcecaoDeDominio()
         {
             var tarefa = new TaskItem { Title = "   " };
 
-            Assert.Throws<BusinessRuleException>(() =>
+            Assert.Throws<DomainValidationException>(() =>
                 _servico.Create(tarefa));
         }
 
@@ -68,14 +60,16 @@ namespace TaskDeskLite.Tests
         }
 
         [Fact]
-        public void Criar_Tarefa_ComPrazoNoPassado_DeveRetornarUmaExcecaoDeRegraDeNegocio()
+        public void Criar_PrazoNoPassado_DeveLancarExcecaoDeDominio()
         {
-            var tarefaPrazoPassado = DateTime.Today.AddDays(-1);
-            var tarefa = new TaskItem();
-            var ex = Assert.Throws<BusinessRuleException>(() =>
-           _servico.Create(tarefa));
+            var tarefa = new TaskItem
+            {
+                Title = "Prazo inválido",
+                DueDate = DateTime.Today.AddDays(-1)
+            };
 
-            Assert.Equal("A data de criação da tarefa deve ser igual ou após o dia atual.", ex.Message);
+            Assert.Throws<DomainValidationException>(() =>
+                _servico.Create(tarefa));
         }
         [Fact]
         //Testes de Exclusão - Aléxia

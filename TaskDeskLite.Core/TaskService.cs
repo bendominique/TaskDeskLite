@@ -15,22 +15,26 @@ public class TaskService : ITaskService
         return task;
     }
 
- 
-     public TaskItem Create(TaskItem task)
-    {
-        //para a tarefa ser valida, conferir com:
-        ValidateTask(task);
 
-        //id da tarefa.
+    public TaskItem Create(TaskItem task)
+    {
+        // Para a tarefa ser válida, chama a validação centralizada
+        // (título, prioridade, palavras proibidas, prazo etc.)
+        TaskValidator.ValidateForCreateOrUpdate(task);
+
+        // Gera um novo identificador único para a tarefa
         task.Id = Guid.NewGuid();
-        //tarefas novas começando como Pendente
+
+        // Toda tarefa nova começa com o status Pendente
         task.Status = TaskStatus.Pending;
-        //data e hora guardadas
+
+        // Guarda a data e hora em que a tarefa foi criada
         task.CreatedAt = DateTime.Now;
 
-        //salvar a tarefa na lista (memoria)    
+        // Salva a tarefa na lista (memória)
         _tasks.Add(task);
 
+        // Retorna a tarefa criada
         return task;
     }
     ///////// validaçao da tarefa:
@@ -85,12 +89,14 @@ public class TaskService : ITaskService
         return task;
     }
 
+    // DELETE — exclui uma tarefa
     public void Delete(Guid id)
     {
-        // Busca a tarefa (se não existir, dá erro)
+        // Busca a tarefa pelo Id
+        // Se não existir, o GetById lança exceção automaticamente
         var task = GetById(id);
-
-        // Remove da lista
+ 
+        // Remove a tarefa da lista em memória
         _tasks.Remove(task);
     }
     public TaskItem MarkAsDone(Guid id)
