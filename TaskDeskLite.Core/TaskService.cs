@@ -44,12 +44,10 @@ public class TaskService : ITaskService
         if (task.Title.Length < 3 || task.Title.Length > 40)
             throw new DomainValidationException("O título deve ter entre 3 e 40 caracteres.");
         //verifica se a data da tarefa
-        if (task.CreatedAt < DateTime.Now)
+        if (task.CreatedAt < DateTime.Today)
             throw new BusinessRuleException("A data de criação da tarefa deve ser igual ou após o dia atual.");
-
     }
-    //    throw new NotImplementedException();
-    //}
+    
 
     public TaskItem Update(TaskItem task)
     {
